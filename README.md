@@ -1,6 +1,7 @@
 # Problem 3 — The Succession Nobody Wrote Down
 
-> Phase 0 (research + plan). Implementation **NOT STARTED**.
+> **FOUNDATION PHASE COMPLETE** (toolchain, role-separated identities, guardrail
+> tests). CORE (root feed / hand-off / reader) **NOT STARTED**.
 
 ## 1. Problem
 When the original steward of a Swarm-preserved space disappears, storage must remain
@@ -52,8 +53,13 @@ written to `docs/hand-off-evidence.md` from the real rotation.
 procedure in `docs/hand-off-evidence.md`.
 
 ## 10. Test results
-No code yet. Test plan in `plan.md` §13; per-check template in
-`docs/evaluator-audit.md`.
+FOUNDATION PHASE (green): `npm test` 24/24 passed; `npm run typecheck` clean;
+`npm run build` clean; `npm audit` 0 vulnerabilities. Suite: identity separation
+(distinct owners, config-level pairwise distinctness), storage (same-batch
+extension/top-up), authority (parameterized incoming publisher, no-op guard,
+hand-off evidence), reader (stable indirection → typed resolution errors), security
+(no key material in src, no `.env`/dist tracked, publisher never imports transfer).
+CORE (live root feed / hand-off / reader) tests **not yet written** — deferred to next phase.
 
 ## 11. Evaluator traceability
 `plan.md` §5 and workspace `docs/traceability-matrix.md` (P3-T1…P3-T8).

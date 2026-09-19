@@ -152,6 +152,10 @@ BATCH_ID=                   # existing batch to extend — placeholder
 
 Node 22 ESM, strict tsconfig; `node:test` runner; CLI commands via `package.json`
 scripts (init / extend / publish / handoff / verify / read).
+- **[OLD]** `node:test`. **[NEW]** **Vitest 4.1.11** (pinned), ESM + `tsc` build.
+  **[REASON]** Vitest provides deterministic TS test execution on Node 22 and
+  richer assertion/arch-scan suites for the guardrail tests. **[SOURCE]**
+  `package.json`, `vitest.config.ts`, 24/24 tests green.
 
 ## 15. 12-hour schedule
 

@@ -1,0 +1,24 @@
+{
+  "name": "problem-3-succession",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "The Succession Nobody Wrote Down — stable indirection, separate payer/publisher/authority, same-batch storage extension, and written hand-off evidence.",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@ethersphere/bee-js": "13.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.4",
+    "typescript": "5.9.3",
+    "vitest": "4.1.11"
+  }
+}
