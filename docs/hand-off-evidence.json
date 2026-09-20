@@ -1,0 +1,19 @@
+{
+  "format": "swanloops-hand-off-evidence",
+  "version": 1,
+  "status": "completed",
+  "authorityOwner": "0x73e477523a17a3d3d7369b3e4cef7a9609406c67",
+  "previousPublisher": "0x579f0d1d9db1c00017deeef2ea03ab68b558371d",
+  "nextPublisher": "0x2232eadcdf5c30c7c2654c1384b15b489733c33e",
+  "nonceAfter": 1,
+  "feedIndexAfter": "1",
+  "timestamp": "2026-09-20T14:09:21.121Z",
+  "rootTopic": "swanloops-live-mu9w4wng",
+  "contentTopic": "preserve-catalogue-mu9w4wng",
+  "entrypoint": {
+    "authorityOwner": "0x73e477523a17a3d3d7369b3e4cef7a9609406c67",
+    "rootTopic": "swanloops-live-mu9w4wng",
+    "resolvedPublisher": "0x2232eadcdf5c30c7c2654c1384b15b489733c33e",
+    "verified": true
+  }
+}

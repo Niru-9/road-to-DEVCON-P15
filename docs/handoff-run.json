@@ -1,0 +1,12 @@
+{
+  "format": "swanloops-hand-off-run",
+  "version": 1,
+  "status": "in-progress",
+  "startedAt": "2026-09-20T14:07:32.428Z",
+  "runId": "mu9w4wng",
+  "rootTopic": "swanloops-live-mu9w4wng",
+  "contentTopic": "preserve-catalogue-mu9w4wng",
+  "authorityOwner": "0x73e477523a17a3d3d7369b3e4cef7a9609406c67",
+  "previousPublisher": "0x579f0d1d9db1c00017deeef2ea03ab68b558371d",
+  "incomingPublisher": "0x2232eadcdf5c30c7c2654c1384b15b489733c33e"
+}
